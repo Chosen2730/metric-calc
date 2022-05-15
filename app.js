@@ -15,6 +15,8 @@ const mass = document.querySelector(".mass");
 const pounds = document.querySelector(".pounds");
 const pound = document.querySelector(".pound");
 const kilo = document.querySelector(".kilo");
+const output = document.querySelector(".output");
+const clear = document.querySelector(".clear");
 
 btnEnter.addEventListener("click", () => {
   modal.classList.add("show-modal");
@@ -51,4 +53,11 @@ inputValue.addEventListener("change", (e) => {
   litres.innerHTML = litreCalc;
   pound.innerHTML = poundsCalc;
   kilo.innerHTML = kiloCalc;
+
+  output.style.display = "block";
+});
+
+clear.addEventListener("click", () => {
+  output.style.display = "none";
+  value.innerHTML = 0;
 });

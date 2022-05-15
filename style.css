@@ -82,6 +82,7 @@ input {
 }
 .output {
   line-height: 1.5;
+  display: none;
 }
 .output h4 {
   margin: 1rem;
