@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="container">
+      <main class="main-container">
+        <div class="input-div">
+          <h1>Metric Unit Conversion</h1>
+          <h2 class="value">0</h2>
+          <button class="btn">Enter New Value</button>
+        </div>
+
+        <div class="output">
+          <h4>Length (Meter/Feet)</h4>
+          <p>
+            <span class="meter">0 </span> meters =
+            <span class="feet">0</span> feet | <span class="feets">0</span> feet
+            = <span class="meters">0</span> meters
+          </p>
+
+          <h4>Volume (Liters/Gallons)</h4>
+          <p>
+            <span class="litre">0 </span> Litres =
+            <span class="gallon">0</span> Gallons |
+            <span class="gallons">0</span> Gallon =
+            <span class="litres">0</span> Litres
+          </p>
+
+          <h4>Mass (Kilograms/Pounds)</h4>
+          <p>
+            <span class="mass">0 </span> kilos =
+            <span class="pound">0</span> Pounds |
+            <span class="pounds">0</span> Pounds =
+            <span class="kilo">0</span> kilos
+          </p>
+        </div>
+      </main>
+    </section>
+    <section class="modal">
+      <div class="modal-div">
+        <button class="close">close modal</button>
+        <input class="input-value" type="number" placeholder="0" />
+        <input class="btn" type="submit" value="enter" />
+      </div>
+    </section>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

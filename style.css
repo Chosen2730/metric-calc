@@ -1,0 +1,109 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  background: rgb(245, 242, 242);
+  padding: 3rem;
+}
+.main-container {
+  margin: 0 auto;
+  background-color: #151d3b;
+  width: 50vw;
+  border-radius: 10px;
+  color: #fff;
+}
+.input-div {
+  background: #764af1;
+  text-align: center;
+  padding: 2rem;
+  color: #fff;
+}
+.value {
+  font-size: 8rem;
+}
+.btn {
+  padding: 1rem 2rem;
+  background: blue;
+  border-radius: 5px;
+  border-style: none;
+  color: #fff;
+  transition: all 0.7s ease-in-out;
+}
+.btn:hover {
+  background: linear-gradient(#efd345, #f32424);
+}
+.output {
+  text-align: center;
+  padding: 2rem;
+}
+.modal {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.9);
+  display: none;
+  align-items: center;
+}
+.show-modal {
+  display: flex;
+}
+.modal-div {
+  width: 30%;
+  background: linear-gradient(#efd345, #f32424);
+  padding: 2rem;
+  margin: 0 auto;
+}
+input {
+  display: block;
+  text-align: center;
+  margin: 2rem auto;
+}
+.input-value {
+  font-size: 3rem;
+  padding: 3rem 0;
+  width: 100%;
+  border-radius: 10px;
+  border-style: none;
+}
+.close {
+  /* position: relative;
+  left: 77%; */
+  margin-left: auto;
+  padding: 0.2rem;
+  border-style: none;
+  color: #fff;
+  background: #000;
+}
+.output {
+  line-height: 1.5;
+}
+.output h4 {
+  margin: 1rem;
+  font-size: 1.5rem;
+}
+.output p {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+@media (max-width: 768px) {
+  .main-container {
+    width: 100vw;
+  }
+  .output h4 {
+    margin: 1rem;
+    font-size: 1rem;
+  }
+  .output p {
+    margin-bottom: 2rem;
+    font-size: 1rem;
+  }
+  .modal-div {
+    width: 70%;
+  }
+}
